@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+
+    <!-- // -------Normalize Script -------// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- // -------Google Fonts -------// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <!-- // -------My Styles -------// -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Experiment 1</h1>
+
+        <h2>To see how this code works tap the mouse pad with two fingers and select inspect!</h2>
+
+        <script>
+         //I am printing the numbers 1-100 with the exception of numbers divisible by 3 and 5, they will be replaced with the words "fizz" and "buzz"! 
+
+           var i = 0; //<<-- this is beginning of the sequence 
+           
+            for(var i = 0; i<101; i++){ //<<-- this is the loop 
+                if(i % 3 === 0){ //<<-- this is the selection 
+                    console.log('Fizz');
+                  }else if(i % 5=== 0){
+                    console.log('Buzz');
+                  }else{
+                    console.log([i] + '\n');
+                  }
+                }
+
+        </script>
+    </header>
+</body>
+</html>
