@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+
+    <!-- // -------Normalize Script -------// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+
+    
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="headerclass">
+            <img id="layer1" src="images/Desktop - 1.jpg" width="1200" height="250"  alt="banner">
+           <div id="headerimage">
+            <svg id="star" xmlns="http://www.w3.org/2000/svg" width="86" height="85" viewBox="0 0 86 85" fill="none">
+            <path d="M44.6416 1.38128L48.0317 21.0341C48.2678 22.3919 49.9517 22.8877 50.8827 21.8783L64.3941 7.17439C65.6548 5.80316 67.8644 7.23692 67.1338 8.95207L59.3424 27.2694C58.8034 28.5379 59.9527 29.8778 61.2847 29.5294L80.5828 24.451C82.3826 23.9775 83.474 26.385 81.9326 27.4302L65.4722 38.6189C64.3318 39.396 64.5812 41.1514 65.8954 41.5757L84.8505 47.6904C86.6235 48.2621 86.2493 50.8795 84.3872 50.9331L64.4565 51.478C63.0755 51.5138 62.3449 53.1262 63.2225 54.1937L75.8607 69.5631C77.0457 71.0013 75.3262 73.0023 73.7314 72.042L56.6294 61.7377C55.4489 61.0275 53.9699 61.9833 54.1303 63.3546L56.429 83.1414C56.6428 84.995 54.1214 85.7409 53.2972 84.0704L44.4857 66.1596C43.8798 64.9268 42.1202 64.9268 41.5143 66.1596L32.7028 84.0704C31.8786 85.7409 29.3572 84.995 29.571 83.1414L31.8697 63.3546C32.0301 61.9833 30.5511 61.0275 29.3706 61.7377L12.2686 72.042C10.6738 73.0023 8.95427 71.0013 10.1392 69.5631L22.7775 54.1937C23.6551 53.1262 22.9245 51.5138 21.5435 51.478L1.61278 50.9331C-0.249322 50.884 -0.623524 48.2621 1.14948 47.6904L20.1046 41.5757C21.4188 41.1514 21.6682 39.396 20.5278 38.6189L4.08073 27.4257C2.53938 26.3761 3.6308 23.9686 5.43053 24.4465L24.7287 29.525C26.0607 29.8778 27.2145 28.5379 26.671 27.2649L18.8795 8.94761C18.149 7.23245 20.363 5.79869 21.6192 7.16992L35.1306 21.8738C36.0617 22.8877 37.7456 22.3874 37.9817 21.0296L41.3718 1.37681C41.6881 -0.458937 44.3208 -0.458937 44.6371 1.37681L44.6416 1.38128Z" fill="#F284B5"/>
+            </svg>
+
+             <svg id="star2" xmlns="http://www.w3.org/2000/svg" width="86" height="85" viewBox="0 0 86 85" fill="none">
+            <path d="M44.6416 1.38128L48.0317 21.0341C48.2678 22.3919 49.9517 22.8877 50.8827 21.8783L64.3941 7.17439C65.6548 5.80316 67.8644 7.23692 67.1338 8.95207L59.3424 27.2694C58.8034 28.5379 59.9527 29.8778 61.2847 29.5294L80.5828 24.451C82.3826 23.9775 83.474 26.385 81.9326 27.4302L65.4722 38.6189C64.3318 39.396 64.5812 41.1514 65.8954 41.5757L84.8505 47.6904C86.6235 48.2621 86.2493 50.8795 84.3872 50.9331L64.4565 51.478C63.0755 51.5138 62.3449 53.1262 63.2225 54.1937L75.8607 69.5631C77.0457 71.0013 75.3262 73.0023 73.7314 72.042L56.6294 61.7377C55.4489 61.0275 53.9699 61.9833 54.1303 63.3546L56.429 83.1414C56.6428 84.995 54.1214 85.7409 53.2972 84.0704L44.4857 66.1596C43.8798 64.9268 42.1202 64.9268 41.5143 66.1596L32.7028 84.0704C31.8786 85.7409 29.3572 84.995 29.571 83.1414L31.8697 63.3546C32.0301 61.9833 30.5511 61.0275 29.3706 61.7377L12.2686 72.042C10.6738 73.0023 8.95427 71.0013 10.1392 69.5631L22.7775 54.1937C23.6551 53.1262 22.9245 51.5138 21.5435 51.478L1.61278 50.9331C-0.249322 50.884 -0.623524 48.2621 1.14948 47.6904L20.1046 41.5757C21.4188 41.1514 21.6682 39.396 20.5278 38.6189L4.08073 27.4257C2.53938 26.3761 3.6308 23.9686 5.43053 24.4465L24.7287 29.525C26.0607 29.8778 27.2145 28.5379 26.671 27.2649L18.8795 8.94761C18.149 7.23245 20.363 5.79869 21.6192 7.16992L35.1306 21.8738C36.0617 22.8877 37.7456 22.3874 37.9817 21.0296L41.3718 1.37681C41.6881 -0.458937 44.3208 -0.458937 44.6371 1.37681L44.6416 1.38128Z" fill="#F284B5"/>
+            </svg>
+           </div>
+        </div>
+    </header>
+    <main>
+        <div class="blocks">
+            <article class="box1">
+                <h2>Research</h2>
+                <ul>
+                    <li>Learning Journal</li>
+                    <li>Experiment 1</li>
+                    <li>Experiment 2</li>
+                </ul>
+            </article>
+
+            <article class="box2">
+                <h2>MadLibs</h2>
+                <ul>
+                    <li>Design Version 1</li>
+                    <li>Design Version 2</li>
+                    <li>Code Version 1</li>
+                    <li>Final MadLib Project</li>
+                </ul>
+            </article>
+
+            <article class="box3">
+                <h2>Every Picture</h2>
+                <ul>
+                    <li>Experiments</li>
+                    <li>Design Comp</li>
+                    <li>Code Version 1</li>
+                    <li>Final Every Picture Project</li>
+                </ul>
+            </article>
+
+            <article class="box4">
+                <h2>Game On</h2>
+                <ul>
+                    <li>Design Version 1</li>
+                    <li>Design Version 2</li>
+                    <li>Code Version 1</li>
+                    <li>Final Game On Project</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p>Emily Pelaez</p>
+        <p>empelaez@ucdavis.edu</p>
+    </footer>
+</body>
+</html>
