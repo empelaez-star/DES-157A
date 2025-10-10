@@ -1,0 +1,50 @@
+body{
+    background: #FAF1D2;
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+
+  
+}
+#colors{
+    letter-spacing: -3.5px;
+}
+#box1{
+    width: 1200px;
+    height: 10px;
+    flex-shrink: 0;
+    background: #DF0265;
+    margin-bottom: 20px;
+}
+header{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+   
+}
+h1{
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    margin-left: 450px;
+    margin-top: 50px;
+  
+   
+}
+#p1{
+    
+    z-index: 0;
+    margin-left: 60px;
+  
+}
+#p2{
+   
+    z-index: 0;
+    margin-right: 85px;
+    margin-bottom: 1px;
+   
+}
