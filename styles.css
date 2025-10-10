@@ -55,6 +55,9 @@ article{
     list-style-type: none;
     text-align: left;
   }
+  ul li a{
+    text-decoration: none;
+  }
   .blocks{
     display: flex;
     gap: 7px;
