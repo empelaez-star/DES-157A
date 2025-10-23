@@ -1,0 +1,219 @@
+body{
+    background-color: #F9C0D1;
+    font-family: "Twinkle Star", cursive;
+    font-weight: bold;
+   
+}
+header {
+  position: relative;              
+  display: flex;
+  justify-content: center;         
+  align-items: center;             
+  margin-top: 20px;               
+  z-index: 2;                      
+}
+
+h1 {
+  color: #550000;
+  font-size: 2.5rem;
+  padding: 10px 40px;             
+  z-index: 2;
+  bottom: 10px;                     
+  position: relative;
+}
+
+#heading {
+  position: absolute;              
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;                      
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*display: flex; */
+    justify-content: center;
+    align-items: center;
+     
+}
+
+ #overlay article {
+   box-sizing: border-box;
+    background-color:#FFFEF1;
+    color: #550000;
+    font-family: "Twinkle Star", cursive;
+    font-size: 1.5rem;
+    padding: 30px;
+    width: 683px;
+    height: 431px;
+    margin-left: 450px;
+    margin-top: 70px;
+    /*position: relative;*/
+    border-radius: 15px;
+    border: 3px solid #AF071C;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 11;
+}
+.hidden {
+    display: none;
+}
+.showing {
+    display: block;
+}
+
+form{
+    width: 683px;
+    height: 431px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 3px solid #CC0019;
+    background: #FFFEF1;
+    margin-left: 450px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 10;
+}
+#yourName{
+    width: 194px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background-color: #CC0019;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+label{
+    margin-left: 20px;
+}
+input{
+    color: whitesmoke;
+}
+::placeholder{
+    color: whitesmoke;
+    text-align: left;
+    margin-top: 15px;
+}
+#AbstractNoun{
+    width: 200px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background: #CC0019;
+}
+#pluralNoun{
+    width: 380px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background: #CC0019;
+    margin-top: 30px;
+}
+#adjective{
+    width: 420px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background: #CC0019;
+    margin-top: 30px;
+}
+#ptVerb{
+    width: 400px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background: #CC0019;
+    margin-top: 30px;
+}
+#noun{
+    width: 385px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #AF071C;
+    background: #CC0019;
+    margin-top: 20px;
+}
+#submitbtn{
+    margin-left: 290px;
+    margin-top: 35px;
+    color: #480017;
+    background-color:#fff5f8;
+    border-radius: 35px;
+    border: 3px solid #AF071C;
+
+
+}
+img{
+ display: block;
+}
+#rose1, #rose2, #rose3 {
+  position: absolute;
+  z-index: -1; 
+}
+#rose3{
+    top: 200px;
+    left: 260px;
+    z-index: -2;
+}
+#rose1 {
+  top: 300px;
+  left: 250px;
+}
+
+#rose2 {
+  top: 400px;
+  left: 160px;
+}
+#l, #o, #v, #e {
+  position: absolute;              
+  z-index: 0;
+  height: 200px;
+}
+#l {
+  top: 190px;
+  left: 80px;
+  transform: rotate(-5deg);
+}
+
+#o {
+  top: 270px;
+  left: 180px;
+  transform: rotate(0deg);
+}
+
+#v {
+  top: 390px;
+  left: 20px;
+  transform: rotate(5deg);
+}
+
+#e {
+  top: 430px;
+  left: 140px;
+  transform: rotate(10deg);
+}
+input[type="text"]:focus {
+    border: 1px solid #94002f;
+    color: #480017;
+    outline: dashed rgb(255, 123, 182);
+    box-shadow: 0 4px 8px 0 rgba(92, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 65, 65, 0.19);
+    text-align: center;
+}
+input[type="submit"]:focus {
+    border: 1px solid #94002f;
+    color: #480017;
+    outline: dashed rgb(255, 123, 182);
+    box-shadow: 0 4px 8px 0 rgba(92, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 65, 65, 0.19);
+    text-align: center;
+}
