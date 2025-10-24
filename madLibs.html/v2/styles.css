@@ -31,18 +31,32 @@ h1 {
 }
 
 #overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    /*display: flex; */
+    position: fixed;
+    inset: 0;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
+    text-align: center;
+    z-index: 11;
+    box-sizing: border-box;
+    background-color:#FFFEF1;
+    color: #550000;
+    font-family: "Twinkle Star", cursive;
+    font-size: 1.5rem;
+    padding: 30px;
+    padding-top: 120px;
+    width: 687px;
+    height: 441px;
+    margin-left: 451px;
+    margin-top: 205px;
+    border-radius: 15px;
+    border: 3px solid #AF071C;
      
 }
-
- #overlay article {
+p{
+  color: #550000;
+}
+ .ocontent {
    box-sizing: border-box;
     background-color:#FFFEF1;
     color: #550000;
@@ -53,18 +67,22 @@ h1 {
     height: 431px;
     margin-left: 450px;
     margin-top: 70px;
-    /*position: relative;*/
+    position: relative;
     border-radius: 15px;
     border: 3px solid #AF071C;
     text-align: center;
     line-height: 1.5;
-    z-index: 11;
+    
 }
 .hidden {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 .showing {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 
 form{
@@ -76,7 +94,7 @@ form{
     background: #FFFEF1;
     margin-left: 450px;
     margin-top: 70px;
-    position: relative;
+    position: fixed;
     z-index: 10;
 }
 #yourName{
@@ -154,7 +172,7 @@ input{
 
 
 }
-img{
+img, form{
  display: block;
 }
 #rose1, #rose2, #rose3 {
