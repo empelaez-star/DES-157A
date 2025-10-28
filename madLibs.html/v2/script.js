@@ -51,7 +51,7 @@
     'use strict';
     console.log('reading js');
 
-        const myform = document.querySelector('#myform');
+    const myform = document.querySelector('#myform');
     const madlb = document.querySelector('#madlib');
     const overlay = document.querySelector('#overlay');
     const overlayArticle = document.querySelector('article');
@@ -82,14 +82,14 @@
 
         
 
-    overlay.innerHTML = `YOUR CONFESSION! <br><br> ${myText}`;
-    
-
-
-
-        
-      
+    madlb.innerHTML = `${myText}`;
+  
     
   });
+   document.querySelector('.close').addEventListener('click', function(event) {
+  event.preventDefault();
+  overlay.classList.add('hidden');
+  overlay.classList.remove('showing');
+});
 })()
 
