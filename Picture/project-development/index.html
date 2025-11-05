@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Slackey&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <main>
+        <h1>Every Picture Project Development</h1>
+         <img src="images/baggubag!.png" width="500" id="bag" alt="baggu bag">
+         <div>
+        <img src="images/Bunniebuddy.png" width="300" id="bunny" alt="bunny">
+        <img src="images/compact.png" width="200" id="com" alt="compact">
+        <img src="images/fishiesclips.png" width="300" id="fish" alt="hair clips">
+        <img src="images/lippie.png" width="200" id="lip" alt="lip gloss">
+        </div>
+        
+
+        <p>
+            My changes that I am working on are the interaction elements of my project. I have a layout that I like now it's just the javascript that needs the most work. I want to scale up my images when clicked on and for them to move a little when they are being hovered over as well, to let the viewer know that the objects are interactive and can be clicked on. After that it is having a text bubble pop up along side the object when clicked on, to show a message on the significance of that object to me. I have also picked out the font I plan on using for this project, to give it more personality!
+            <br>
+            Here is my idea for what I want to do coding wise, I am using an example from a previous practice we did before in class as a foundation:<br>
+            const item = document.querySelectorAll("img");<br>
+
+            item.addEventListener('mouseover', function(){<br>
+            item.innerHTML = "The mouse is over the box!";<br>
+             });<br>
+
+          item.addEventListener('mouseout', function(){<br>
+            item.innerHTML = "The mouse has left the box!";<br>
+                });<br>
+                })()<br>
+
+                I am hoping to use mouseover to get my images to move, I tried to use hover in css but that didn't work!
+
+        </p>
+
+    </main>
+</body>
+</html>
