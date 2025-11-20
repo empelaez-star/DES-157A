@@ -45,14 +45,14 @@ h3{
     top: 118px;
     
 }
-/*P{
-   font-family: "Bahiana", sans-serif;
-   font-size: x-large;
+P{
+font-family: "Barriecito", system-ui;
+font-size: x-large;
 }
 img{
     display: block;
     margin: auto;
-}*/
+}
 #bag{
     z-index: 10;
     position: relative;
@@ -219,8 +219,8 @@ img {
     text-align: center;
     z-index: 11;
     box-sizing: border-box;
-    padding-top: 25px;
-    height: 205px;
+    padding-top: 0px;
+    height: 284px;
     margin-left: 806px;
     margin-top: 205px;
     border-radius: 15px;
@@ -240,8 +240,8 @@ img {
     text-align: center;
     z-index: 11;
     box-sizing: border-box;
-    padding-top: 15px;
-    height: 205px;
+    padding-top: 4px;
+    height: 267px;
     margin-left: 806px;
     margin-top: 205px;
     border-radius: 15px;
@@ -261,8 +261,8 @@ img {
     text-align: center;
     z-index: 11;
     box-sizing: border-box;
-    padding-top: 7px;
-    height: 205px;
+    padding-top: 5px;
+    height: 295px;
     margin-left: 806px;
     margin-top: 205px;
     border-radius: 15px;
@@ -282,8 +282,8 @@ img {
     text-align: center;
     z-index: 11;
     box-sizing: border-box;
-    padding-top: 15px;
-    height: 205px;
+    padding-top: 0px;
+    height: 265px;
     margin-left: 806px;
     margin-top: 205px;
     border-radius: 15px;
