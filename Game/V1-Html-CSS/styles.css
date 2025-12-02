@@ -10,7 +10,7 @@ h1{
 
 p{
     font-family: "Bebas Neue", cursive;
-    font-size: 14px;
+    font-size: 25px;
     text-align: center;
     margin: 20px;
 }
@@ -60,4 +60,24 @@ p{
     position: absolute;
     right: 145px;
     top: 230px;
+}
+#hp2{
+    margin-bottom: 15px;
+    position: absolute;
+    right: 80px;
+}
+#hp1{
+    margin-bottom: 15px;
+    position: absolute;
+    left: 80px;
+}
+#moves2{
+    position: absolute;
+    right: 115px;
+    top: 420px;
+}
+#moves1{
+    position: absolute;
+    left: 115px;
+    top: 420px;
 }
