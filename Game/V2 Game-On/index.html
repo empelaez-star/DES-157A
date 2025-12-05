@@ -12,48 +12,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
     
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Game On V1</h1>
+        <h1>Game On</h1>
         <img id="line" src="images/purple.png" width="1200px">
     </header>
     <main>
+    
+
+    <div class="players">
         <article id="p1">
-        <h2 id="player1">Player 1</h2>
-        <img id="blue" src="images/Blue.png" width="120px">
-        <div class="health">
+            <h2 id="player1">Player 1</h2>
+            <img id="blue" src="images/Blue.png" width="150px">
+            <div class="health">
                 <div id="healthbar1"><div></div></div><p id="blob1">100%</p>
             </div>
-        <article id="stats1">
-        <p id="hp1">HP</p>
-        
-        <button id="attack1">Attack</button>
-        <button id="pass1">Pass</button>
-        
-        </article>
+            <p id="hp1">HP</p>
         </article>
 
         <article id="p2">
-        <h2 id="player2">Player 2</h2>
-        <img id="green" src="images/Green.png" width="100px">
-        <div class="health2">
+            <h2 id="player2">Player 2</h2>
+            <img id="green" src="images/Green.png" width="120px">
+            <div class="health2">
                 <div id="healthbar2"><div></div></div><p id="blob2">100%</p>
             </div>
-        <article id="stats2">
-        <p id="hp2">HP</p>
-
-        <button id="pass2">Pass</button>
-        <button id="attack2">Attack</button>
+            <p id="hp2">HP</p>
         </article>
-        </article>
+    </div>
 
-       
-        <p id="start">Press start to randomly select who will go first!</p>
-        <button id="startgame">Start the Game</button>
-        
-    </main>
-</body>
-</html>
+    <p id="start">Press start to randomly select who will go first!</p>
+    <button id="startgame">Start the Game</button>
+
+    <button id="attack" class="hidden">Attack</button>
+
+    <div id="messages"></div>
+
+</main>
